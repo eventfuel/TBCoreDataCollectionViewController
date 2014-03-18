@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCF0BFA618D86B3200E214FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0BFA518D86B3200E214FE /* Foundation.framework */; };
+		BCF0BFA818D86B3200E214FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0BFA718D86B3200E214FE /* CoreGraphics.framework */; };
+		BCF0BFAA18D86B3200E214FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0BFA918D86B3200E214FE /* UIKit.framework */; };
+		BCF0BFB018D86B3200E214FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCF0BFAE18D86B3200E214FE /* InfoPlist.strings */; };
+		BCF0BFB218D86B3200E214FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0BFB118D86B3200E214FE /* main.m */; };
+		BCF0BFB618D86B3200E214FE /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0BFB518D86B3200E214FE /* TBAppDelegate.m */; };
+		BCF0BFB918D86B3200E214FE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF0BFB718D86B3200E214FE /* Main_iPhone.storyboard */; };
+		BCF0BFBC18D86B3200E214FE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF0BFBA18D86B3200E214FE /* Main_iPad.storyboard */; };
+		BCF0BFBF18D86B3200E214FE /* TBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0BFBE18D86B3200E214FE /* TBViewController.m */; };
+		BCF0BFC118D86B3200E214FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF0BFC018D86B3200E214FE /* Images.xcassets */; };
+		BCF0BFC818D86B3200E214FE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0BFC718D86B3200E214FE /* XCTest.framework */; };
+		BCF0BFC918D86B3200E214FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0BFA518D86B3200E214FE /* Foundation.framework */; };
+		BCF0BFCA18D86B3200E214FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0BFA918D86B3200E214FE /* UIKit.framework */; };
+		BCF0BFD218D86B3200E214FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCF0BFD018D86B3200E214FE /* InfoPlist.strings */; };
+		BCF0BFD418D86B3200E214FE /* TBCoreDataCollectionViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0BFD318D86B3200E214FE /* TBCoreDataCollectionViewControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCF0BFCB18D86B3200E214FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF0BF9A18D86B3200E214FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF0BFA118D86B3200E214FE;
+			remoteInfo = TBCoreDataCollectionViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCF0BFA218D86B3200E214FE /* TBCoreDataCollectionViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBCoreDataCollectionViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF0BFA518D86B3200E214FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCF0BFA718D86B3200E214FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCF0BFA918D86B3200E214FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCF0BFAD18D86B3200E214FE /* TBCoreDataCollectionViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCoreDataCollectionViewController-Info.plist"; sourceTree = "<group>"; };
+		BCF0BFAF18D86B3200E214FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCF0BFB118D86B3200E214FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCF0BFB318D86B3200E214FE /* TBCoreDataCollectionViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBCoreDataCollectionViewController-Prefix.pch"; sourceTree = "<group>"; };
+		BCF0BFB418D86B3200E214FE /* TBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
+		BCF0BFB518D86B3200E214FE /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
+		BCF0BFB818D86B3200E214FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BCF0BFBB18D86B3200E214FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		BCF0BFBD18D86B3200E214FE /* TBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBViewController.h; sourceTree = "<group>"; };
+		BCF0BFBE18D86B3200E214FE /* TBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBViewController.m; sourceTree = "<group>"; };
+		BCF0BFC018D86B3200E214FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCF0BFC618D86B3200E214FE /* TBCoreDataCollectionViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBCoreDataCollectionViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF0BFC718D86B3200E214FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCF0BFCF18D86B3200E214FE /* TBCoreDataCollectionViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCoreDataCollectionViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		BCF0BFD118D86B3200E214FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCF0BFD318D86B3200E214FE /* TBCoreDataCollectionViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBCoreDataCollectionViewControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF0BF9F18D86B3200E214FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF0BFA818D86B3200E214FE /* CoreGraphics.framework in Frameworks */,
+				BCF0BFAA18D86B3200E214FE /* UIKit.framework in Frameworks */,
+				BCF0BFA618D86B3200E214FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF0BFC318D86B3200E214FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF0BFC818D86B3200E214FE /* XCTest.framework in Frameworks */,
+				BCF0BFCA18D86B3200E214FE /* UIKit.framework in Frameworks */,
+				BCF0BFC918D86B3200E214FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCF0BF9918D86B3200E214FE = {
+			isa = PBXGroup;
+			children = (
+				BCF0BFAB18D86B3200E214FE /* TBCoreDataCollectionViewController */,
+				BCF0BFCD18D86B3200E214FE /* TBCoreDataCollectionViewControllerTests */,
+				BCF0BFA418D86B3200E214FE /* Frameworks */,
+				BCF0BFA318D86B3200E214FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCF0BFA318D86B3200E214FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0BFA218D86B3200E214FE /* TBCoreDataCollectionViewController.app */,
+				BCF0BFC618D86B3200E214FE /* TBCoreDataCollectionViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF0BFA418D86B3200E214FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0BFA518D86B3200E214FE /* Foundation.framework */,
+				BCF0BFA718D86B3200E214FE /* CoreGraphics.framework */,
+				BCF0BFA918D86B3200E214FE /* UIKit.framework */,
+				BCF0BFC718D86B3200E214FE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCF0BFAB18D86B3200E214FE /* TBCoreDataCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0BFB418D86B3200E214FE /* TBAppDelegate.h */,
+				BCF0BFB518D86B3200E214FE /* TBAppDelegate.m */,
+				BCF0BFB718D86B3200E214FE /* Main_iPhone.storyboard */,
+				BCF0BFBA18D86B3200E214FE /* Main_iPad.storyboard */,
+				BCF0BFBD18D86B3200E214FE /* TBViewController.h */,
+				BCF0BFBE18D86B3200E214FE /* TBViewController.m */,
+				BCF0BFC018D86B3200E214FE /* Images.xcassets */,
+				BCF0BFAC18D86B3200E214FE /* Supporting Files */,
+			);
+			path = TBCoreDataCollectionViewController;
+			sourceTree = "<group>";
+		};
+		BCF0BFAC18D86B3200E214FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0BFAD18D86B3200E214FE /* TBCoreDataCollectionViewController-Info.plist */,
+				BCF0BFAE18D86B3200E214FE /* InfoPlist.strings */,
+				BCF0BFB118D86B3200E214FE /* main.m */,
+				BCF0BFB318D86B3200E214FE /* TBCoreDataCollectionViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCF0BFCD18D86B3200E214FE /* TBCoreDataCollectionViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0BFD318D86B3200E214FE /* TBCoreDataCollectionViewControllerTests.m */,
+				BCF0BFCE18D86B3200E214FE /* Supporting Files */,
+			);
+			path = TBCoreDataCollectionViewControllerTests;
+			sourceTree = "<group>";
+		};
+		BCF0BFCE18D86B3200E214FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0BFCF18D86B3200E214FE /* TBCoreDataCollectionViewControllerTests-Info.plist */,
+				BCF0BFD018D86B3200E214FE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCF0BFA118D86B3200E214FE /* TBCoreDataCollectionViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF0BFD718D86B3200E214FE /* Build configuration list for PBXNativeTarget "TBCoreDataCollectionViewController" */;
+			buildPhases = (
+				BCF0BF9E18D86B3200E214FE /* Sources */,
+				BCF0BF9F18D86B3200E214FE /* Frameworks */,
+				BCF0BFA018D86B3200E214FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBCoreDataCollectionViewController;
+			productName = TBCoreDataCollectionViewController;
+			productReference = BCF0BFA218D86B3200E214FE /* TBCoreDataCollectionViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCF0BFC518D86B3200E214FE /* TBCoreDataCollectionViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF0BFDA18D86B3200E214FE /* Build configuration list for PBXNativeTarget "TBCoreDataCollectionViewControllerTests" */;
+			buildPhases = (
+				BCF0BFC218D86B3200E214FE /* Sources */,
+				BCF0BFC318D86B3200E214FE /* Frameworks */,
+				BCF0BFC418D86B3200E214FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF0BFCC18D86B3200E214FE /* PBXTargetDependency */,
+			);
+			name = TBCoreDataCollectionViewControllerTests;
+			productName = TBCoreDataCollectionViewControllerTests;
+			productReference = BCF0BFC618D86B3200E214FE /* TBCoreDataCollectionViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCF0BF9A18D86B3200E214FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Tasboa;
+				TargetAttributes = {
+					BCF0BFC518D86B3200E214FE = {
+						TestTargetID = BCF0BFA118D86B3200E214FE;
+					};
+				};
+			};
+			buildConfigurationList = BCF0BF9D18D86B3200E214FE /* Build configuration list for PBXProject "TBCoreDataCollectionViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCF0BF9918D86B3200E214FE;
+			productRefGroup = BCF0BFA318D86B3200E214FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCF0BFA118D86B3200E214FE /* TBCoreDataCollectionViewController */,
+				BCF0BFC518D86B3200E214FE /* TBCoreDataCollectionViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCF0BFA018D86B3200E214FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF0BFBC18D86B3200E214FE /* Main_iPad.storyboard in Resources */,
+				BCF0BFC118D86B3200E214FE /* Images.xcassets in Resources */,
+				BCF0BFB918D86B3200E214FE /* Main_iPhone.storyboard in Resources */,
+				BCF0BFB018D86B3200E214FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF0BFC418D86B3200E214FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF0BFD218D86B3200E214FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCF0BF9E18D86B3200E214FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF0BFBF18D86B3200E214FE /* TBViewController.m in Sources */,
+				BCF0BFB618D86B3200E214FE /* TBAppDelegate.m in Sources */,
+				BCF0BFB218D86B3200E214FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF0BFC218D86B3200E214FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF0BFD418D86B3200E214FE /* TBCoreDataCollectionViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCF0BFCC18D86B3200E214FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF0BFA118D86B3200E214FE /* TBCoreDataCollectionViewController */;
+			targetProxy = BCF0BFCB18D86B3200E214FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCF0BFAE18D86B3200E214FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF0BFAF18D86B3200E214FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCF0BFB718D86B3200E214FE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF0BFB818D86B3200E214FE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BCF0BFBA18D86B3200E214FE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF0BFBB18D86B3200E214FE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BCF0BFD018D86B3200E214FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF0BFD118D86B3200E214FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCF0BFD518D86B3200E214FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCF0BFD618D86B3200E214FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCF0BFD818D86B3200E214FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBCoreDataCollectionViewController/TBCoreDataCollectionViewController-Prefix.pch";
+				INFOPLIST_FILE = "TBCoreDataCollectionViewController/TBCoreDataCollectionViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCF0BFD918D86B3200E214FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBCoreDataCollectionViewController/TBCoreDataCollectionViewController-Prefix.pch";
+				INFOPLIST_FILE = "TBCoreDataCollectionViewController/TBCoreDataCollectionViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCF0BFDB18D86B3200E214FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TBCoreDataCollectionViewController.app/TBCoreDataCollectionViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBCoreDataCollectionViewController/TBCoreDataCollectionViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TBCoreDataCollectionViewControllerTests/TBCoreDataCollectionViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCF0BFDC18D86B3200E214FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TBCoreDataCollectionViewController.app/TBCoreDataCollectionViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBCoreDataCollectionViewController/TBCoreDataCollectionViewController-Prefix.pch";
+				INFOPLIST_FILE = "TBCoreDataCollectionViewControllerTests/TBCoreDataCollectionViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCF0BF9D18D86B3200E214FE /* Build configuration list for PBXProject "TBCoreDataCollectionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF0BFD518D86B3200E214FE /* Debug */,
+				BCF0BFD618D86B3200E214FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF0BFD718D86B3200E214FE /* Build configuration list for PBXNativeTarget "TBCoreDataCollectionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF0BFD818D86B3200E214FE /* Debug */,
+				BCF0BFD918D86B3200E214FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCF0BFDA18D86B3200E214FE /* Build configuration list for PBXNativeTarget "TBCoreDataCollectionViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF0BFDB18D86B3200E214FE /* Debug */,
+				BCF0BFDC18D86B3200E214FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCF0BF9A18D86B3200E214FE /* Project object */;
+}
