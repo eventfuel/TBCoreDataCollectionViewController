@@ -22,6 +22,8 @@
 		BCF0BFCA18D86B3200E214FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0BFA918D86B3200E214FE /* UIKit.framework */; };
 		BCF0BFD218D86B3200E214FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCF0BFD018D86B3200E214FE /* InfoPlist.strings */; };
 		BCF0BFD418D86B3200E214FE /* TBCoreDataCollectionViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0BFD318D86B3200E214FE /* TBCoreDataCollectionViewControllerTests.m */; };
+		BCF0BFE218D86B9300E214FE /* TBCoreDataCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0BFE118D86B9300E214FE /* TBCoreDataCollectionViewController.m */; };
+		BCF0BFE418D86BA600E214FE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0BFE318D86BA600E214FE /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		BCF0BFCF18D86B3200E214FE /* TBCoreDataCollectionViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCoreDataCollectionViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		BCF0BFD118D86B3200E214FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BCF0BFD318D86B3200E214FE /* TBCoreDataCollectionViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBCoreDataCollectionViewControllerTests.m; sourceTree = "<group>"; };
+		BCF0BFE018D86B9300E214FE /* TBCoreDataCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBCoreDataCollectionViewController.h; path = TBCoreDataCollectionViewController/TBCoreDataCollectionViewController.h; sourceTree = "<group>"; };
+		BCF0BFE118D86B9300E214FE /* TBCoreDataCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBCoreDataCollectionViewController.m; path = TBCoreDataCollectionViewController/TBCoreDataCollectionViewController.m; sourceTree = "<group>"; };
+		BCF0BFE318D86BA600E214FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF0BFE418D86BA600E214FE /* CoreData.framework in Frameworks */,
 				BCF0BFA818D86B3200E214FE /* CoreGraphics.framework in Frameworks */,
 				BCF0BFAA18D86B3200E214FE /* UIKit.framework in Frameworks */,
 				BCF0BFA618D86B3200E214FE /* Foundation.framework in Frameworks */,
@@ -84,6 +90,8 @@
 		BCF0BF9918D86B3200E214FE = {
 			isa = PBXGroup;
 			children = (
+				BCF0BFE018D86B9300E214FE /* TBCoreDataCollectionViewController.h */,
+				BCF0BFE118D86B9300E214FE /* TBCoreDataCollectionViewController.m */,
 				BCF0BFAB18D86B3200E214FE /* TBCoreDataCollectionViewController */,
 				BCF0BFCD18D86B3200E214FE /* TBCoreDataCollectionViewControllerTests */,
 				BCF0BFA418D86B3200E214FE /* Frameworks */,
@@ -103,6 +111,7 @@
 		BCF0BFA418D86B3200E214FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BCF0BFE318D86BA600E214FE /* CoreData.framework */,
 				BCF0BFA518D86B3200E214FE /* Foundation.framework */,
 				BCF0BFA718D86B3200E214FE /* CoreGraphics.framework */,
 				BCF0BFA918D86B3200E214FE /* UIKit.framework */,
@@ -255,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCF0BFBF18D86B3200E214FE /* TBViewController.m in Sources */,
+				BCF0BFE218D86B9300E214FE /* TBCoreDataCollectionViewController.m in Sources */,
 				BCF0BFB618D86B3200E214FE /* TBAppDelegate.m in Sources */,
 				BCF0BFB218D86B3200E214FE /* main.m in Sources */,
 			);
@@ -471,6 +481,7 @@
 				BCF0BFD918D86B3200E214FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCF0BFDA18D86B3200E214FE /* Build configuration list for PBXNativeTarget "TBCoreDataCollectionViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +490,7 @@
 				BCF0BFDC18D86B3200E214FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
