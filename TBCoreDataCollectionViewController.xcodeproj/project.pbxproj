@@ -10,12 +10,6 @@
 		BCF0BFA618D86B3200E214FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0BFA518D86B3200E214FE /* Foundation.framework */; };
 		BCF0BFA818D86B3200E214FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0BFA718D86B3200E214FE /* CoreGraphics.framework */; };
 		BCF0BFAA18D86B3200E214FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0BFA918D86B3200E214FE /* UIKit.framework */; };
-		BCF0BFB018D86B3200E214FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCF0BFAE18D86B3200E214FE /* InfoPlist.strings */; };
-		BCF0BFB218D86B3200E214FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0BFB118D86B3200E214FE /* main.m */; };
-		BCF0BFB618D86B3200E214FE /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0BFB518D86B3200E214FE /* TBAppDelegate.m */; };
-		BCF0BFB918D86B3200E214FE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF0BFB718D86B3200E214FE /* Main_iPhone.storyboard */; };
-		BCF0BFBC18D86B3200E214FE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF0BFBA18D86B3200E214FE /* Main_iPad.storyboard */; };
-		BCF0BFBF18D86B3200E214FE /* TBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0BFBE18D86B3200E214FE /* TBViewController.m */; };
 		BCF0BFC118D86B3200E214FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF0BFC018D86B3200E214FE /* Images.xcassets */; };
 		BCF0BFC818D86B3200E214FE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0BFC718D86B3200E214FE /* XCTest.framework */; };
 		BCF0BFC918D86B3200E214FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0BFA518D86B3200E214FE /* Foundation.framework */; };
@@ -24,6 +18,10 @@
 		BCF0BFD418D86B3200E214FE /* TBCoreDataCollectionViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0BFD318D86B3200E214FE /* TBCoreDataCollectionViewControllerTests.m */; };
 		BCF0BFE218D86B9300E214FE /* TBCoreDataCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0BFE118D86B9300E214FE /* TBCoreDataCollectionViewController.m */; };
 		BCF0BFE418D86BA600E214FE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0BFE318D86BA600E214FE /* CoreData.framework */; };
+		BCF0BFE618D8711900E214FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0BFE518D8711900E214FE /* main.m */; };
+		BCF0BFE918D8712B00E214FE /* TBCoreDataCollectionViewController-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCF0BFE818D8712B00E214FE /* TBCoreDataCollectionViewController-Info.plist */; };
+		BCF0BFEC18D8713300E214FE /* TBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0BFEB18D8713300E214FE /* TBViewController.m */; };
+		BCF0BFEF18D8713D00E214FE /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0BFEE18D8713D00E214FE /* TBAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,16 +39,9 @@
 		BCF0BFA518D86B3200E214FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BCF0BFA718D86B3200E214FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BCF0BFA918D86B3200E214FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BCF0BFAD18D86B3200E214FE /* TBCoreDataCollectionViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCoreDataCollectionViewController-Info.plist"; sourceTree = "<group>"; };
 		BCF0BFAF18D86B3200E214FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BCF0BFB118D86B3200E214FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BCF0BFB318D86B3200E214FE /* TBCoreDataCollectionViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBCoreDataCollectionViewController-Prefix.pch"; sourceTree = "<group>"; };
-		BCF0BFB418D86B3200E214FE /* TBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
-		BCF0BFB518D86B3200E214FE /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
 		BCF0BFB818D86B3200E214FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		BCF0BFBB18D86B3200E214FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		BCF0BFBD18D86B3200E214FE /* TBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBViewController.h; sourceTree = "<group>"; };
-		BCF0BFBE18D86B3200E214FE /* TBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBViewController.m; sourceTree = "<group>"; };
 		BCF0BFC018D86B3200E214FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BCF0BFC618D86B3200E214FE /* TBCoreDataCollectionViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBCoreDataCollectionViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF0BFC718D86B3200E214FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,6 +51,13 @@
 		BCF0BFE018D86B9300E214FE /* TBCoreDataCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBCoreDataCollectionViewController.h; path = TBCoreDataCollectionViewController/TBCoreDataCollectionViewController.h; sourceTree = "<group>"; };
 		BCF0BFE118D86B9300E214FE /* TBCoreDataCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBCoreDataCollectionViewController.m; path = TBCoreDataCollectionViewController/TBCoreDataCollectionViewController.m; sourceTree = "<group>"; };
 		BCF0BFE318D86BA600E214FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BCF0BFE518D8711900E214FE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Exclude/main.m; sourceTree = SOURCE_ROOT; };
+		BCF0BFE718D8712000E214FE /* TBCoreDataCollectionViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TBCoreDataCollectionViewController-Prefix.pch"; path = "Exclude/TBCoreDataCollectionViewController-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		BCF0BFE818D8712B00E214FE /* TBCoreDataCollectionViewController-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TBCoreDataCollectionViewController-Info.plist"; path = "Exclude/TBCoreDataCollectionViewController-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BCF0BFEA18D8713300E214FE /* TBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBViewController.h; path = Exclude/TBViewController.h; sourceTree = SOURCE_ROOT; };
+		BCF0BFEB18D8713300E214FE /* TBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBViewController.m; path = Exclude/TBViewController.m; sourceTree = SOURCE_ROOT; };
+		BCF0BFED18D8713D00E214FE /* TBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBAppDelegate.h; path = Exclude/TBAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		BCF0BFEE18D8713D00E214FE /* TBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBAppDelegate.m; path = Exclude/TBAppDelegate.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +121,12 @@
 		BCF0BFAB18D86B3200E214FE /* TBCoreDataCollectionViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BCF0BFB418D86B3200E214FE /* TBAppDelegate.h */,
-				BCF0BFB518D86B3200E214FE /* TBAppDelegate.m */,
+				BCF0BFED18D8713D00E214FE /* TBAppDelegate.h */,
+				BCF0BFEE18D8713D00E214FE /* TBAppDelegate.m */,
 				BCF0BFB718D86B3200E214FE /* Main_iPhone.storyboard */,
 				BCF0BFBA18D86B3200E214FE /* Main_iPad.storyboard */,
-				BCF0BFBD18D86B3200E214FE /* TBViewController.h */,
-				BCF0BFBE18D86B3200E214FE /* TBViewController.m */,
+				BCF0BFEA18D8713300E214FE /* TBViewController.h */,
+				BCF0BFEB18D8713300E214FE /* TBViewController.m */,
 				BCF0BFC018D86B3200E214FE /* Images.xcassets */,
 				BCF0BFAC18D86B3200E214FE /* Supporting Files */,
 			);
@@ -138,10 +136,10 @@
 		BCF0BFAC18D86B3200E214FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BCF0BFAD18D86B3200E214FE /* TBCoreDataCollectionViewController-Info.plist */,
+				BCF0BFE818D8712B00E214FE /* TBCoreDataCollectionViewController-Info.plist */,
 				BCF0BFAE18D86B3200E214FE /* InfoPlist.strings */,
-				BCF0BFB118D86B3200E214FE /* main.m */,
-				BCF0BFB318D86B3200E214FE /* TBCoreDataCollectionViewController-Prefix.pch */,
+				BCF0BFE518D8711900E214FE /* main.m */,
+				BCF0BFE718D8712000E214FE /* TBCoreDataCollectionViewController-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -241,10 +239,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF0BFBC18D86B3200E214FE /* Main_iPad.storyboard in Resources */,
+				BCF0BFE918D8712B00E214FE /* TBCoreDataCollectionViewController-Info.plist in Resources */,
 				BCF0BFC118D86B3200E214FE /* Images.xcassets in Resources */,
-				BCF0BFB918D86B3200E214FE /* Main_iPhone.storyboard in Resources */,
-				BCF0BFB018D86B3200E214FE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF0BFBF18D86B3200E214FE /* TBViewController.m in Sources */,
+				BCF0BFE618D8711900E214FE /* main.m in Sources */,
+				BCF0BFEC18D8713300E214FE /* TBViewController.m in Sources */,
+				BCF0BFEF18D8713D00E214FE /* TBAppDelegate.m in Sources */,
 				BCF0BFE218D86B9300E214FE /* TBCoreDataCollectionViewController.m in Sources */,
-				BCF0BFB618D86B3200E214FE /* TBAppDelegate.m in Sources */,
-				BCF0BFB218D86B3200E214FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,8 +398,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TBCoreDataCollectionViewController/TBCoreDataCollectionViewController-Prefix.pch";
-				INFOPLIST_FILE = "TBCoreDataCollectionViewController/TBCoreDataCollectionViewController-Info.plist";
+				GCC_PREFIX_HEADER = "Exclude/TBCoreDataCollectionViewController-Prefix.pch";
+				INFOPLIST_FILE = "Exclude/TBCoreDataCollectionViewController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -415,8 +411,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TBCoreDataCollectionViewController/TBCoreDataCollectionViewController-Prefix.pch";
-				INFOPLIST_FILE = "TBCoreDataCollectionViewController/TBCoreDataCollectionViewController-Info.plist";
+				GCC_PREFIX_HEADER = "Exclude/TBCoreDataCollectionViewController-Prefix.pch";
+				INFOPLIST_FILE = "Exclude/TBCoreDataCollectionViewController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
